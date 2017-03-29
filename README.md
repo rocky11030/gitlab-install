@@ -5,9 +5,8 @@ GitLab Community Edition
 
 这个roles暂时只支持ubuntu系统
 
-There is a cron job that creates daily backups of the database and another cron job that deletes backups older than `gitlab_days_old_backups` days.
+There is a cron 任务 that creates daily backups of the database and another cron job that 删除备份 older than `gitlab_days_old_backups` days.
 
-To only run update tasks, run `ansible-playbook site.yml --tags gitlabupdate`.
 
 Requirements
 ------------

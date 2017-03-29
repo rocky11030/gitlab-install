@@ -3,7 +3,7 @@ GitLab Community Edition
 [![Build Status](https://travis-ci.org/samdoran/ansible-role-gitlab.svg?branch=master)](https://travis-ci.org/samdoran/ansible-role-gitlab)
 [![Galaxy](https://img.shields.io/badge/galaxy-samdoran.gitlab-blue.svg?style=flat)](https://galaxy.ansible.com/samdoran/gitlab)
 
-The role will install the latest version of GitLab CE from the official repositories.
+这个roles暂时只支持ubuntu系统
 
 There is a cron job that creates daily backups of the database and another cron job that deletes backups older than `gitlab_days_old_backups` days.
 
